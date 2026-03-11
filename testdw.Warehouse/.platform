@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
   "metadata": {
     "type": "Warehouse",
-    "displayName": "demo-dw",
-    "description": "demo dw - with cs"
+    "displayName": "testdw",
+    "description": ""
   },
   "config": {
     "version": "2.0",
-    "logicalId": "5dc31d2b-4a29-9e0b-4cca-e76d4f5b5568"
+    "logicalId": "86401688-e9bc-9b38-475b-416546f7e6c8"
   }
 }
