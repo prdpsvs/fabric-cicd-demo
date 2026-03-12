@@ -1,9 +1,11 @@
 CREATE TABLE [dbo].[Products] (
-
-	[ProductID] int NOT NULL, 
-	[ProductName] varchar(100) NOT NULL, 
-	[Category] varchar(50) NOT NULL, 
-	[UnitPrice] decimal(10,2) NOT NULL, 
-	[StockQuantity] int NOT NULL, 
-	[IsActive] bit NOT NULL
+    [ProductID]     INT             NOT NULL,
+    [ProductName]   VARCHAR (100)   NOT NULL,
+    [Category]      VARCHAR (50)    NOT NULL,
+    [UnitPrice]     DECIMAL (10, 2) NOT NULL,
+    [StockQuantity] INT             NOT NULL,
+    [IsActive]      BIT             NOT NULL
 );
+
+
+GO
