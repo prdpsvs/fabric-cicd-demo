@@ -1,4 +1,6 @@
 CREATE TABLE [dbo].[Customers1] (
-
-	[Email] varchar(256) NOT NULL
+    [Email] VARCHAR (256) MASKED WITH (FUNCTION = 'email()') NOT NULL
 );
+
+
+GO

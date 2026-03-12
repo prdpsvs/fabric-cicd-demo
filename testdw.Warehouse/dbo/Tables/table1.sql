@@ -1,4 +1,6 @@
 CREATE TABLE [dbo].[table1] (
-
-	[col1] int NOT NULL
+    [col1] INT NOT NULL
 );
+
+
+GO
