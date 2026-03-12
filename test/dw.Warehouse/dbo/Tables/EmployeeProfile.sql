@@ -1,4 +1,6 @@
 CREATE TABLE [dbo].[EmployeeProfile] (
-
-	[BirthDate] date NULL
+    [BirthDate] DATE MASKED WITH (FUNCTION = 'datetime("Y")') NULL
 );
+
+
+GO

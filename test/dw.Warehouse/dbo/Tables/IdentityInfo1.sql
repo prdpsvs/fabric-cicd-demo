@@ -1,4 +1,6 @@
 CREATE TABLE [dbo].[IdentityInfo1] (
-
-	[SSN] char(11) NULL
+    [SSN] CHAR (11) MASKED WITH (FUNCTION = 'partial(0, "XXX-XX-", 4)') NULL
 );
+
+
+GO

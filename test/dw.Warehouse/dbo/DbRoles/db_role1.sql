@@ -1,1 +1,0 @@
-CREATE ROLE [db_role1];
