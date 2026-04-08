@@ -1,14 +1,18 @@
 CREATE TABLE [dbo].[Customers] (
-
-	[CustomerID] int NOT NULL, 
-	[FirstName] varchar(50) NOT NULL, 
-	[LastName] varchar(50) NOT NULL, 
-	[Email] varchar(255) NULL, 
-	[Phone] varchar(20) NULL, 
-	[Address] varchar(100) NULL, 
-	[JoinDate] date NOT NULL
+    [CustomerID] INT           NOT NULL,
+    [FirstName]  VARCHAR (50)  NOT NULL,
+    [LastName]   VARCHAR (50)  NOT NULL,
+    [Email]      VARCHAR (255) NULL,
+    [Phone]      VARCHAR (20)  NULL,
+    [Address]    VARCHAR (100) NULL,
+    [JoinDate]   DATE          NOT NULL
 );
 
 
-GO
-ALTER TABLE [dbo].[Customers] ADD CONSTRAINT PK_Customers_CustomerID primary key NONCLUSTERED ([CustomerID]);
+GO
+
+ALTER TABLE [dbo].[Customers]
+    ADD CONSTRAINT [PK_Customers_CustomerID] PRIMARY KEY NONCLUSTERED ([CustomerID] ASC) NOT ENFORCED;
+
+
+GO

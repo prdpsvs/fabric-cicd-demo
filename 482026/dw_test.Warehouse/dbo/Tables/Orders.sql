@@ -1,13 +1,17 @@
 CREATE TABLE [dbo].[Orders] (
-
-	[OrderID] int NOT NULL, 
-	[CustomerID] int NOT NULL, 
-	[OrderDate] datetime2(6) NOT NULL, 
-	[ShippedDate] datetime2(6) NULL, 
-	[TotalAmount] decimal(12,2) NOT NULL, 
-	[ROW_ID] bigint NOT NULL
+    [OrderID]     INT             NOT NULL,
+    [CustomerID]  INT             NOT NULL,
+    [OrderDate]   DATETIME2 (6)   NOT NULL,
+    [ShippedDate] DATETIME2 (6)   NULL,
+    [TotalAmount] DECIMAL (12, 2) NOT NULL,
+    [ROW_ID]      BIGINT          NOT NULL
 );
 
 
-GO
-ALTER TABLE [dbo].[Orders] ADD CONSTRAINT PK_Orders primary key NONCLUSTERED ([OrderID]);
+GO
+
+ALTER TABLE [dbo].[Orders]
+    ADD CONSTRAINT [PK_Orders] PRIMARY KEY NONCLUSTERED ([OrderID] ASC) NOT ENFORCED;
+
+
+GO

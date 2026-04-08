@@ -31,3 +31,5 @@ BEGIN
     RETURN ISNULL(@Total, 0);  
 
 END;
+
+GO
