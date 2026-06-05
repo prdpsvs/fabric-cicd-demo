@@ -1,0 +1,5 @@
+c:\Users\pvenkat\source\repos\fabric-cicd-demo\482026\dw_test.Warehouse\bin\Debug\dw_test.dacpac
+c:\Users\pvenkat\source\repos\fabric-cicd-demo\482026\dw_test.Warehouse\obj\Debug\Model.xml
+c:\Users\pvenkat\source\repos\fabric-cicd-demo\482026\dw_test.Warehouse\obj\Debug\refactor.xml
+c:\Users\pvenkat\source\repos\fabric-cicd-demo\482026\dw_test.Warehouse\obj\Debug\postdeploy.sql
+c:\Users\pvenkat\source\repos\fabric-cicd-demo\482026\dw_test.Warehouse\obj\Debug\predeploy.sql

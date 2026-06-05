@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "b3n1RHWk+QQ=",
+  "success": true,
+  "projectFilePath": "c:\\Users\\pvenkat\\source\\repos\\fabric-cicd-demo\\482026\\dw_test.Warehouse\\dw_test.sqlproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pvenkat\\.nuget\\packages\\microsoft.sqlserver.dacpacs.fabricdw\\170.0.2\\microsoft.sqlserver.dacpacs.fabricdw.170.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
