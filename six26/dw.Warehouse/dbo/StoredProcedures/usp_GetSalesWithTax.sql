@@ -1,10 +1,11 @@
 CREATE PROCEDURE dbo.usp_GetSalesWithTax
-    @customerId INT
+    @customerId INT,
+    @minAmount  DECIMAL(18,2) = 0   -- new param
 AS
 BEGIN
     SELECT v.*
-    FROM [dw].[dbo].[vw_SalesWithTax] AS v          -- aliased three-part self-ref
-    WHERE v.CustomerId = @customerId;
+    FROM [dw].[dbo].[vw_SalesWithTax] AS v
+    WHERE v.CustomerId = @customerId AND v.Amount >= @minAmount;
 END;
 
 GO
