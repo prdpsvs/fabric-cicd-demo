@@ -21,6 +21,6 @@
     <PreDeploy Include=".sharedqueries/SQL query 8.sql" />
   </ItemGroup>
   <ItemGroup>
-    <PostDeploy Include=".sharedqueries/SQL query 9.sql" />
+    <PostDeploy Include=".sharedqueries/SQL query 12.sql" />
   </ItemGroup>
 </Project>
