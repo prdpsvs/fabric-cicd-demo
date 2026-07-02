@@ -17,4 +17,10 @@
   <Target Name="BeforeBuild">
     <Delete Files="$(BaseIntermediateOutputPath)\project.assets.json" />
   </Target>
+  <ItemGroup>
+    <PreDeploy Include=".sharedqueries/SQL query 8.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include=".sharedqueries/SQL query 9.sql" />
+  </ItemGroup>
 </Project>
