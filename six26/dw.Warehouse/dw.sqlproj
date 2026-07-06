@@ -14,13 +14,13 @@
       <Version>170.0.2</Version>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup>
+    <Build Remove=".sharedqueries\**" />
+  </ItemGroup>
   <Target Name="BeforeBuild">
     <Delete Files="$(BaseIntermediateOutputPath)\project.assets.json" />
   </Target>
   <ItemGroup>
-    <PreDeploy Include=".sharedqueries/SQL query 8.sql" />
-  </ItemGroup>
-  <ItemGroup>
-    <PostDeploy Include=".sharedqueries/SQL query 12.sql" />
+    <PreDeploy Include=".sharedqueries/SQL query 12.sql" />
   </ItemGroup>
 </Project>
