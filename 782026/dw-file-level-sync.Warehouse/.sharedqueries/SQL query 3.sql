@@ -1,3 +1,3 @@
-CREATE VIEW [dbo].[view1]
+CREATE VIEW [dbo].[view2]
 AS SELECT *
 FROM [dbo].[table1]
