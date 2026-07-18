@@ -1,0 +1,8 @@
+CREATE FUNCTION dbo.fn_TaxAmount(@amount DECIMAL(18,2))
+RETURNS DECIMAL(18,2)
+AS
+BEGIN
+    RETURN @amount * 0.08;
+END;
+
+GO
