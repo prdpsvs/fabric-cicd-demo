@@ -6,6 +6,6 @@ CREATE TABLE [dbo].[Invoice]
     [Amount]      DECIMAL(18,2)   NOT NULL,
     [Currency]    VARCHAR(3)      NULL
 );
-
+GO
 ALTER TABLE [dbo].[Invoice]
     ADD CONSTRAINT [PK_Invoice] PRIMARY KEY NONCLUSTERED ([InvoiceId]) NOT ENFORCED;
