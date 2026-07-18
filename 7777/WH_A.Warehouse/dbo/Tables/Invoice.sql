@@ -9,3 +9,5 @@ CREATE TABLE [dbo].[Invoice]
 GO
 ALTER TABLE [dbo].[Invoice]
     ADD CONSTRAINT [PK_Invoice] PRIMARY KEY NONCLUSTERED ([InvoiceId]) NOT ENFORCED;
+
+GO
