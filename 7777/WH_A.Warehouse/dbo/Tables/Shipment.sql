@@ -5,3 +5,5 @@ CREATE TABLE dbo.Shipment
     ShippedOn   DATE         NOT NULL,
     Carrier     VARCHAR(50)  NOT NULL
 );
+
+GO
