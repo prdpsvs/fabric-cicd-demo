@@ -1,1 +1,5 @@
-CREATE SCHEMA archive;
+CREATE SCHEMA [archive]
+    AUTHORIZATION [dbo];
+
+
+GO
