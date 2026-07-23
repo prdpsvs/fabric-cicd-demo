@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build">
   <Sdk Name="Microsoft.Build.Sql" Version="2.3.0-preview.1" />
   <PropertyGroup>
@@ -21,6 +22,9 @@
     <Delete Files="$(BaseIntermediateOutputPath)\project.assets.json" />
   </Target>
   <ItemGroup>
-    <PostDeploy Include=".sharedqueries/SQL query 5.sql" />
+    <PreDeploy Include=".sharedqueries/SQL query 5.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include=".sharedqueries/SQL query 8.sql" />
   </ItemGroup>
 </Project>
