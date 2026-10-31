@@ -4,8 +4,8 @@
     <DropObjectsNotInSource>False</DropObjectsNotInSource>
     <VerifyDeployment>True</VerifyDeployment>
     <TreatVerificationErrorsAsWarnings>False</TreatVerificationErrorsAsWarnings>
-    <GenerateSmartDefaults>True</GenerateSmartDefaults>
-    <AllowTableRecreation>True</AllowTableRecreation>
+    <GenerateSmartDefaults>False</GenerateSmartDefaults>
+    <AllowTableRecreation>False</AllowTableRecreation>
     <DoNotDropObjectTypes>DatabaseRoles;ExternalDataSources;ExternalTables;ScalarValuedFunctions;StoredProcedures;Tables;TableValuedFunctions;Views</DoNotDropObjectTypes>
   </PropertyGroup>
 </Project>
