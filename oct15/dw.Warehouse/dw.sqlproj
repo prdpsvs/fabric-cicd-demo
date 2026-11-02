@@ -24,4 +24,7 @@
   <ItemGroup>
     <None Include="publishprofile.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <PreDeploy Include=".sharedqueries/SQL query 1.sql" />
+  </ItemGroup>
 </Project>
