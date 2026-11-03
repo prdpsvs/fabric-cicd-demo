@@ -1,0 +1,11 @@
+<Project>
+  <PropertyGroup>
+    <BlockOnPossibleDataLoss>True</BlockOnPossibleDataLoss>
+    <DropObjectsNotInSource>False</DropObjectsNotInSource>
+    <VerifyDeployment>True</VerifyDeployment>
+    <TreatVerificationErrorsAsWarnings>False</TreatVerificationErrorsAsWarnings>
+    <GenerateSmartDefaults>False</GenerateSmartDefaults>
+    <AllowTableRecreation>False</AllowTableRecreation>
+    <DoNotDropObjectTypes>DatabaseRoles;ExternalDataSources;ExternalTables;ScalarValuedFunctions;StoredProcedures;Tables;TableValuedFunctions;Views</DoNotDropObjectTypes>
+  </PropertyGroup>
+</Project>
