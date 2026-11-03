@@ -3,7 +3,7 @@ CREATE FUNCTION [dbo].[tableValuedFunction1] (
 	@Parameter2 INT
 )
 RETURNS TABLE AS RETURN (
-	SELECT @parameter1 + @parameter2
+	SELECT @Parameter1 + @Parameter2
 	AS RESULT
 )
 
