@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Warehouse",
+    "displayName": "pradeep_test",
+    "description": ""
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "4eed7590-797d-b535-4d05-db1c1135dec4"
+  }
+}
