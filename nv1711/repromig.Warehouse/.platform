@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Warehouse",
+    "displayName": "repromig"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "398d999e-0297-ac74-4ff0-6a16c0010f62"
+  }
+}
