@@ -6,6 +6,6 @@
     <TreatVerificationErrorsAsWarnings>False</TreatVerificationErrorsAsWarnings>
     <GenerateSmartDefaults>False</GenerateSmartDefaults>
     <AllowTableRecreation>False</AllowTableRecreation>
-    <DoNotDropObjectTypes>DatabaseRoles;ExternalDataSources;ExternalTables;ScalarValuedFunctions;StoredProcedures;Tables;TableValuedFunctions;Views</DoNotDropObjectTypes>
+    <DoNotDropObjectTypes>ExternalDataSources;ExternalTables;ScalarValuedFunctions;StoredProcedures;Tables;TableValuedFunctions;Views</DoNotDropObjectTypes>
   </PropertyGroup>
 </Project>
