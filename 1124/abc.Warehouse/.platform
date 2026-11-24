@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
   "metadata": {
     "type": "Warehouse",
-    "displayName": "retail-profitability",
+    "displayName": "abc",
     "description": ""
   },
   "config": {
     "version": "2.0",
-    "logicalId": "1f1c5202-2729-a712-46c6-d0c445918012"
+    "logicalId": "ad0c4793-fc5f-8dd1-40ca-be69918b00c2"
   }
 }

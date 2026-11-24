@@ -2,7 +2,7 @@
 <Project DefaultTargets="Build">
   <Sdk Name="Microsoft.Build.Sql" Version="2.3.0-preview.2" />
   <PropertyGroup>
-    <Name>retail-profitability-dep-test</Name>
+    <Name>xyz</Name>
     <ProjectGuid>{00000000-0000-0000-0000-000000000000}</ProjectGuid>
     <DSP>Microsoft.Data.Tools.Schema.Sql.SqlDwUnifiedDatabaseSchemaProvider</DSP>
     <ModelCollation>1033, CS</ModelCollation>
@@ -23,5 +23,11 @@
   </Target>
   <ItemGroup>
     <None Include="publishprofile.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PreDeploy Include=".sharedqueries/pre-sql.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include=".sharedqueries/post-sql.sql" />
   </ItemGroup>
 </Project>
