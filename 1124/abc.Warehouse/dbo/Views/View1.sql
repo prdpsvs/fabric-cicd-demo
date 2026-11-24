@@ -1,3 +1,3 @@
-CREATE VIEW dbo.View1 AS SELECT * FROM [retail-profitability].[RetailDemo].[Customers]
+CREATE VIEW dbo.View1 AS SELECT * FROM [xyz].[RetailDemo].[Customers]
 
 GO
